@@ -1,2 +1,2 @@
 # Leninware-proxy
-Railway - fly.io - transcriptAPI
+Railway - transcriptAPI
