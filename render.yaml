@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: leninware-proxy
+    env: python
+    runtime: python3
+    region: ohio
+    buildCommand: ""
+    startCommand: gunicorn proxy:app
+    envVars:
+      - key: TRANSCRIPT_API_KEY
+        sync: false
